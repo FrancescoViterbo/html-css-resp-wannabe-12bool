@@ -43,8 +43,8 @@ hr {
     }
 
     img {
-        max-width: 150px;
-        max-height: 150px;
+        height: 100px;
+        margin-bottom: 10px;
     }
 
     #why [class*="col-"] {
@@ -72,8 +72,12 @@ hr {
     }
 
     img {
-        max-width: 200px;
-        max-height: 150px;
+        height: 150px;
+        margin-bottom: 15px;
+    }
+
+    #why div:nth-of-type(2) > hr  {
+        display: none;
     }
 
 }
@@ -93,8 +97,12 @@ hr {
     }
 
     img {
-        max-width: 250px;
-        max-height: 150px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    #why hr  {
+        display: none;
     }
 
 }
